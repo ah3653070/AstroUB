@@ -193,6 +193,6 @@ Released under [GNU](/LICENSE) by [LoverBoy](https://github.com/LoverboyXD) .
 
 <hr>
 
-𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 [𝙂𝙄𝙏𝙃𝙐𝘽](https://github.com/loverboyXR)
+𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 [𝙂𝙄𝙏𝙃𝙐𝘽](https://github.com/loverboyXD)
 
 <hr>
