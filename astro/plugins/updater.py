@@ -9,9 +9,9 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from astro import CMD_HELP, bot 
 from astro import bot as borg
-from astro.utils import *
+from astro.utils import admin_cmd
 import asyncio
-from astro.events import admin_cmd
+
 from astro.config import Config
 
 requirements_path = path.join(
