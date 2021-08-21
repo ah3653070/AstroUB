@@ -100,7 +100,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                 ],
             )
-        elif event.query.user_id == bot.uid and query.startswith("『• Welcome"):
+        elif event.query.user_id == bot.uid and query.startswith("『•"):
                 result = builder.photo(
                 file = A_PIC,
                 text = astro,
