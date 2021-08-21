@@ -62,7 +62,7 @@ async def amireallyalive(alive):
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n   "
+    astro += f"**『• Welcome To ƛsτʀ๏ •』**\n   "
     astro += f"**{A_TEXT}**\n\n     "
     astro += f"{emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}\n"
     astro += f"{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`\n"
@@ -72,7 +72,7 @@ async def amireallyalive(alive):
     astro += f"{emoji}** ƛsτʀ๏ Support** ⊳≫ [Astro Support](https://t.me/Astro_HelpChat)\n"
     astro += f"{emoji}** мy мαsтєя** ⊳≫ [{MYUSER}](tg://user?id={myid})\n\n"
     astro += f"{emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
-    
+    inastro = f"{astro},
     await alive.get_chat()
     await alive.delete()
 
