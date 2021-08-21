@@ -1,1 +1,1 @@
-worker: python3 -m AstroUB.py
+worker: python3 -m Astrorun.py
