@@ -10,7 +10,7 @@ from telethon import Button, custom, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
 from astro import CMD_HELP, CMD_LIST, CUSTOM_PMPERMIT, bot
-from astro.plugins.alive import astro
+from astro.plugins.alive import inastro
 from astro.plugins import astrostats, masterinfo, aboutastro
 from astro.config import Config
 
@@ -100,10 +100,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                 ],
             )
-        elif event.query.user_id == bot.uid and query.startswith("_Astro"):
+        elif event.query.user_id == bot.uid and query.startswith("__Astro"):
                 result = builder.photo(
                 file = A_PIC,
-                text = astro,
+                text = inastro,
                 buttons = [
                     [
                       custom.Button.inline("♪𝘼𝘽𝙊𝙐𝙏 𝙈𝙔 𝙈𝘼𝙎𝙏𝙀𝙍♪", data="master"),
