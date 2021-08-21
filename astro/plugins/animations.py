@@ -19,7 +19,7 @@ from asyncio import wait
 from collections import deque
 
 from telethon import events
-
+from astro import CMD_HELP
 from astro.config import Config
 from astro.utils import admin_cmd
 NAME = Config.NAME
