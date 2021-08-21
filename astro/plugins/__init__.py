@@ -33,8 +33,8 @@ masteri = "HELLO BELOW IS ABOUT MY OWNER\n"
 masteri += f"USERNAME: {OWNER_USERNAME}\n"
 masteri += f"ID: {OWNER_ID}\n"
 masteri += f"NAME: [{ASTRO}](tg://user?id={OWNER_ID})\n"
-masteri += "IS BOT: False\n\n"
-
+masteri += "IS BOT: False\n"
+masteri += f"Assistant: {BOT_USERNAME}\n\n"
 masterinfo = f"{masteri}"
 
 testro = "Hello This is About me😚\n"
