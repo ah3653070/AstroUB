@@ -15,12 +15,12 @@ if Config.PMSECURITY.lower() == "off":
 else:
     pm = "ACTIVE"
 
-astro = f"**ƛsτʀ๏ Vision:** {vision}\n"
-astro += f"**SUDO USERS:** {sudo}\n"
-astro += f"**PM SECURITY:** {pm}\n"
-astro += f"**Assistant:** {BOT_USERNAME}\n"
-astro += f"__My Master__: {OWNER_USERNAME}\n"
-astro += f"__Protected by__: {ASTRO}\n\n"
+astro = f"ƛsτʀ๏ Vision: {vision}\n"
+astro += f"SUDO USERS: {sudo}\n"
+astro += f"PM SECURITY: {pm}\n"
+astro += f"Assistant: {BOT_USERNAME}\n"
+astro += f"My Master: {OWNER_USERNAME}\n"
+astro += f"Protected by: {ASTRO}\n\n"
 
 astrostats = f"{astro}"
 
@@ -29,5 +29,21 @@ astrostats = f"{astro}"
 ASTRO = bot.me.first_name
 OWNER_ID = bot.me.id
 
+masteri = "HELLO BELOW IS ABOUT MY OWNER\n"
+masteri += f"USERNAME: {OWNER_USERNAME}\n"
+masteri += f"ID: {OWNER_ID}\n"
+masteri += f"NAME: [{ASTRO}](tg://user?id={OWNER_ID})\n"
+masteri += "IS BOT: False\n\n"
+
+masterinfo = f"{masteri}"
+
+testro = "Hello This is About me😚\n"
+testro += "Name: ƛsτʀ๏ υsєяъ๏т\n"
+testro += f"Vision: {vision}\n"
+testro += "Maintained🤔: Yes\n"
+testro += "Gives Security: OP level\n"
+testro += "Creator: @Alone_loverboy\n\n"
+
+aboutastro = f"{testro}"
 # PYTHON VISION 
 PYTHON = "3.9.6"
