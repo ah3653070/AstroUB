@@ -117,7 +117,7 @@ python3 -m AstroUB.py
 
 <p align="center">
    
-   <a href="https://github.com/AstroUB/AstroUB">
+   <a href="https://youtu.be/vIrfR_tTmls">
       <img src="resources/ytastro.jpg" height="350px" width="350px" border="2px" alt="astro">
       </a>
       <br>
