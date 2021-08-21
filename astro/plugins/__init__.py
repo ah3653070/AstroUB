@@ -1,7 +1,7 @@
 from astro.config import Config 
 from astro import bot 
 from astro import vision 
-
+OWNER_ID = Config.OWNER_ID
 BOT_USERNAME = Config.BOT_USERNAME
 OWNER_USERNAME = Config.OWNER_USERNAME
 ASTRO = "@Astro_UserBot"
