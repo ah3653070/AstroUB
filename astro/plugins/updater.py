@@ -1,4 +1,4 @@
-hemlo bois and gaes
+# Astro-UB
 from os import remove, execle, path, makedirs, getenv, environ
 from shutil import rmtree
 
