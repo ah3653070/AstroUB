@@ -49,13 +49,13 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @Astro_HelpChat**™"
+                    string += "\n\n**© @Royalbotz**™"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @Astro_HelpChat**™"
+                    string += "\n**© @Royalbotz**™"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " is not in My Plugins list!")
@@ -71,5 +71,5 @@ async def cmd_list(event):
                 await event.delete()
             except BaseException:
                 await event.edit(
-                    f"ӇЄԼԼƠ Ɩ ƛM ƝƠƬ ƛƁԼЄ ƬƠ ƦЄƔЄƛԼ ƛԼԼ ƇƠMMƛƝƊƧ ƁЄƇƛƲƧЄ MƳ ƖƝԼƖƝЄ ƖƧ ƊƖƧƛƁԼЄƊ 🤷🤦ƓЄƬ ӇЄԼƤ ƑƦƠM [Astro_HelpChat](https://t.me/Astro_HelpChat)", link_preview=False
+                    f"ӇЄԼԼƠ Ɩ ƛM ƝƠƬ ƛƁԼЄ ƬƠ ƦЄƔЄƛԼ ƛԼԼ ƇƠMMƛƝƊƧ ƁЄƇƛƲƧЄ MƳ ƖƝԼƖƝЄ ƖƧ ƊƖƧƛƁԼЄƊ 🤷🤦ƓЄƬ ӇЄԼƤ ƑƦƠM [Rb support](https://t.me/tgbotschat)", link_preview=False
                 )
