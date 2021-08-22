@@ -39,7 +39,7 @@ async def send(event):
         end = datetime.now()
         time_taken_in_ms = (end - start).seconds
         await pro.edit(
-            f"**► Plugin Name:** `{input_str}`\n**► Uploaded by:** [{DEFAULTUSER}](tg://user?id={hmm})\n\n© @Astro_HelpChat"
+            f"**► Plugin Name:** `{input_str}`\n**► Uploaded by:** [{DEFAULTUSER}](tg://user?id={hmm})\n\n© @Royalbotz"
         )
         await asyncio.sleep(DELETE_TIMEOUT)
     else:
