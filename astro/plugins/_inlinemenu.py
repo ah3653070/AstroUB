@@ -91,7 +91,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 text=f"**astro Stats For [{DEFAULTUSER}](tg://user?id={myid})**\n\n__Bot is functioning normally, master!__\n\n© @Astro_HelpChat ™",
                 buttons=[
                     [custom.Button.inline("Stats📊", data="statcheck")],
-                    [Button.url("Repository ✨", "https://github.com/PsychoBots/Astro-UB")],
+                    [Button.url("Channel✨", "https://t.me/Royalbotz")],
                     [
                         Button.url(
                             "Deploy Astro🌌",
@@ -129,16 +129,16 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"astro - Telegram Userbot.",
+                text=f"Rb - Telegram Userbot.",
                 buttons=[
                     [
-                        Button.url("Repository ✨", "https://github.com/PsychoBots/Astro-UB"),
+                        Button.url("channel✨", "https://t.me/Royalbotz"),
                         Button.url(
-                            "Deploy Astro🌌",
-                            "https://heroku.com/deploy?template=https://github.com/PsychoBots/Astro-UB",
+                            "Dev",
+                            "https://t.me/haseeb_tg",
                         ),
                     ],
-                    [Button.url("Support✌️", "https://t.me/Astro_HelpChat")],
+                    [Button.url("Support✌️", "https://t.me/tgbotschat")],
                 ],
             )
         else:
@@ -146,19 +146,19 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 "Source Code",
                 text="**Welcome to ƛsτʀ๏ υsєяъ๏т**\n\nClick below buttons for more",
                 buttons=[
-                    [custom.Button.url("Creator👀", "https://t.me/Alone_loverboy")],
+                    [custom.Button.url("Creator👀", "https://t.me/haseeb_tg")],
                     [
                         custom.Button.url(
-                            "💾Source Code", "https://github.com/PsychoBots"
+                            "💾Source Code", "https://tgbots.co"
                         ),
                         custom.Button.url(
-                            "Deploy🌌",
-                            "https://heroku.com/deploy?template=https://github.com/PsychoBots/Astro-UB",
+                            "Team Rb",
+                            "https://t.me/Royalbotz",
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "Updates and Support Group↗️", "https://t.me/Astro_HelpChat"
+                            "Updates and Support Group↗️", "https://t.me/tgbotschat"
                         )
                     ],
                 ],
@@ -179,7 +179,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             await event.edit(buttons=buttons)
         else:
             reply_pop_up_alert = (
-                "Hey you.🙄 Create Your Own ƛsτʀ๏ υsєяъ๏т Don't touch mine😒"
+                "Hey you.🙄 Create Your Own Rb Don't touch mine😒"
             )
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -199,7 +199,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             buttons = paginate_help(0, CMD_LIST, "helpme")
             await event.edit("Menu main Opened-Again🍁", buttons=buttons)
         else:
-            reply_pop_up_alert = "Hey you.🙄 Get Your Own ƛsτʀ๏ υsєяъ๏т Don't touch mine🙂!"
+            reply_pop_up_alert = "Hey you.🙄 Get Your Own Rb υsєяъ๏т Don't touch mine🙂!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"req")))
